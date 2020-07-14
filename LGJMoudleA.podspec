@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "LGJMoudleA"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.3"
   spec.summary      = "基础数据类型的分类"
   spec.description  =  "基础数据类型分类，方便使用"
   spec.homepage     = "https://github.com/lipopli/LGJMoudleA.git"
@@ -11,11 +11,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "381216970@qq.com" => "381216970@qq.com" }
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/lipopli/LGJMoudleA.git", :tag => "#{spec.version}" }
-  spec.source_files  = "LGJMoudleA", "LGJMoudleA/**/*.{swift,xib}"
-  spec.exclude_files = "Classes/Exclude"
-
-  # spec.public_header_files = "Classes/**/*.h"
-
+  spec.source_files  = "LGJMoudleA/**/*"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

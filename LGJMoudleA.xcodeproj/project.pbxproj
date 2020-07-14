@@ -11,6 +11,7 @@
 		FA5713D324BD80D1002AF182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5713D224BD80D1002AF182 /* AppDelegate.swift */; };
 		FA5713D924BD80D2002AF182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5713D824BD80D2002AF182 /* Assets.xcassets */; };
 		FA5713DF24BD80D2002AF182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5713DD24BD80D2002AF182 /* LaunchScreen.storyboard */; };
+		FA5713E824BD8DDF002AF182 /* ReamTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5713E724BD8DDF002AF182 /* ReamTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FA5713D824BD80D2002AF182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA5713DE24BD80D2002AF182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA5713E024BD80D2002AF182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5713E724BD8DDF002AF182 /* ReamTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReamTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +76,21 @@
 		FA5713D124BD80D1002AF182 /* LGJMoudleA */ = {
 			isa = PBXGroup;
 			children = (
+				FA5713E624BD8DCE002AF182 /* Tool */,
 				FA5713D224BD80D1002AF182 /* AppDelegate.swift */,
 				FA5713D824BD80D2002AF182 /* Assets.xcassets */,
 				FA5713DD24BD80D2002AF182 /* LaunchScreen.storyboard */,
 				FA5713E024BD80D2002AF182 /* Info.plist */,
 			);
 			path = LGJMoudleA;
+			sourceTree = "<group>";
+		};
+		FA5713E624BD8DCE002AF182 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				FA5713E724BD8DDF002AF182 /* ReamTool.swift */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5713E824BD8DDF002AF182 /* ReamTool.swift in Sources */,
 				FA5713D324BD80D1002AF182 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
